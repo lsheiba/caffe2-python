@@ -26,7 +26,7 @@ Volumes:
   clusterStorage: {{ .storage }}
   subPath: training
 - gitRepo:
-    repository: https://github.com/lsheiba/klchart_p3
+    repository: https://github.com/lsheiba/caffe2-python
   isLibDir: false
   isTrainLogDir: false
   mountPath: /src
