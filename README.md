@@ -1,1 +1,1 @@
-# klchart_p2 - python 2
+# caffe2-python
