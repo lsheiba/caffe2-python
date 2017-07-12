@@ -1,14 +1,14 @@
 Args: --data_dir=/workspace/data --log_dir=$RUNDIR --training_iteration=1000
 Cmd: main.py
 EnvVars: []
-ExecutionDir: /src/klchart_p2
+ExecutionDir: /src/caffe2-python
 Images:
-  BaseImage: tensorflow/tensorflow:latest
-  GpuImage: tensorflow/tensorflow:latest-gpu
-  PSImage: tensorflow/tensorflow:latest
+  BaseImage: caffe2ai/cafe2:latest
+  GpuImage: caffe2ai/cafe2:latest
+  PSImage: caffe2ai/cafe2:latest
 Jupyter:
   UseGPU: true
-  Image: lsheiba/tensorflow:latest-gpu
+  Image: lsheiba/caffe2-gpu:latest
 MonitoringNamespace: kuberlab
 Requests:
   CPU: 100m
