@@ -14,16 +14,7 @@ import argparse
 import sys
 import os
 
-import tensorflow as tf
-tf.__version__
-
-tf.app.flags.DEFINE_integer('training_iteration', 1000,
-                            'Number of training iterations')
-tf.app.flags.DEFINE_integer('model_version', 1, 'Version number of the model')
-tf.app.flags.DEFINE_string('data_dir', '/tmp/data', 'Data directory')
-tf.app.flags.DEFINE_string('log_dir', 'models/log', 'Log directory')
-FLAGS = tf.app.flags.FLAGS
-
+import caffe2 as c2
 
 if __name__ == '__main__':
     tf.app.run()
