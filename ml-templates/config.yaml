@@ -8,7 +8,7 @@ Images:
   PSImage: caffe2ai/cafe2:latest
 Jupyter:
   UseGPU: true
-  Image: lsheiba/caffe2-gpu-tutorial
+  Image: lsheiba/caffe2-jupyter-gpu-tutorial
 MonitoringNamespace: kuberlab
 Requests:
   CPU: 100m
