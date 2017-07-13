@@ -3,9 +3,9 @@ Cmd: main.py
 EnvVars: []
 ExecutionDir: /src/caffe2-python
 Images:
-  BaseImage: caffe2ai/cafe2:latest
-  GpuImage: caffe2ai/cafe2:latest
-  PSImage: caffe2ai/cafe2:latest
+  BaseImage: caffe2ai/caffe2:latest
+  GpuImage: caffe2ai/caffe2:latest
+  PSImage: caffe2ai/caffe2:latest
 Jupyter:
   UseGPU: true
   Image: lsheiba/caffe2-jupyter-gpu-tutorial
